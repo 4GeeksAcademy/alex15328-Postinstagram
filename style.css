@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto ;
+}
+
+.post {
+    background-color:white;
+    width: 680px;
+    border:1px solid lightgrey;
+    border-radius: 5px;
+    overflow: hidden;
+      
+}
+
+.header {
+display:flex;
+
+}
+
+.profile-img {
+    width: 37px;
+    height: 37px;           
+    padding:4px;   
+}
+
+.username {
+    font-weight: bold;
+    display: block;
+    padding: 5px;
+  }
+  
+  .location {
+    font-size: 15px;
+    color: grey;
+    padding: 8px;
+  }
+  
+.options {
+    font-size: 30px;   
+    margin-left: 560px;           
+}
+
+.post-image img{
+width:100% ;
+height:auto ;
+}
+
+.post-actions{
+display:flex;
+justify-content: space-between;
+padding: 10px;
+}
+
+.icons span{
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.bookmark {    
+    margin:2px 10px 4px 0px ;
+    font-size: 24px;
+    cursor: pointer;
+    align-self: center; 
+    margin-left: 400px;   
+}
+
+.post-likes {
+    padding: 10px;
+font-size: 14px;
+}
+
+  
+.post-caption {
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+  }
